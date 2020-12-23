@@ -5,6 +5,8 @@
 #include <stdlib.h>
 #include <memory.h>
 #include <string.h>
+#include <fcntl.h> // for open
+#include <unistd.h> // for close
 
 int token;                    // current token
 int token_val;                // value of current token (mainly for number)
