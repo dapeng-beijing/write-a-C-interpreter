@@ -30,3 +30,13 @@
 
 # Debug files
 *.dSYM/
+
+cmake-build-debug/
+.idea/
+*.iws
+*.iml
+*.ipr
+
+CMakeLists.txt
+
+.gitignore

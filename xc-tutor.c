@@ -5,6 +5,8 @@
 #include <stdlib.h>
 #include <memory.h>
 #include <string.h>
+#include <fcntl.h> // for open
+#include <unistd.h> // for close
 #define int long long // work with 64bit target
 
 int token;            // current token
@@ -162,7 +164,7 @@ int main(int argc, char **argv)
 
     pc = text;
 
-    program();
+//    program();
 
     return eval();
 }
