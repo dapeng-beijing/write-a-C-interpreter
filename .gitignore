@@ -36,3 +36,5 @@ cmake-build-debug/
 *.iws
 *.iml
 *.ipr
+
+CMakeLists.txt
