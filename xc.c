@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <memory.h>
 #include <string.h>
+#include <fcntl.h> // for open
+#include <unistd.h> // for close
 
 int debug;    // print the executed instructions
 int assembly; // print out the assembly and source
